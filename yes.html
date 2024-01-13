@@ -5,7 +5,9 @@
     <script>
       function nextPage() {
         var phoneNumber = '6378283594';
-        alert('Message sent to ' + 6378283594);
+        
+        // Construct the tel: URI and set it as the location href
+        window.location.href = 'tel:' + phoneNumber;
       }
     </script>
   </head>
